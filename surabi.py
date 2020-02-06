@@ -32,7 +32,7 @@ class Surabi(object):
         return self.driver.find_elements_by_class_name(classname)[i].text
     
     def textXpath(self,xpath):
-        # xpath = "//option[@value='"+semester+"']"
+        # xpath = "//option[@value='2018/2017 genaps']"
         # "//input[@value='Cari' and @name='Cari']"
         # "//table[@class='box' and @align='left']/tbody/tr"
         return self.driver.find_element_by_xpath(xpath).text
